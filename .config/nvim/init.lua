@@ -444,6 +444,7 @@ require("lazy").setup({
 						},
 					},
 				},
+				tsserver = {},
 				emmet_ls = {
 					filetypes = {
 						"css",
