@@ -51,6 +51,10 @@ alias lla="ls -la"
 alias lt="ls --tree"
 alias glo="git log --oneline"
 alias nv="nvim"
+alias zel="zellij"
+alias zelc="zel attach --create"
+alias zela="zel attach"
+alias zells="zel list-sessions"
 
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
