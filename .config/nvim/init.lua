@@ -444,7 +444,6 @@ require("lazy").setup({
 						},
 					},
 				},
-				-- html = {},
 				emmet_ls = {
 					filetypes = {
 						"css",
@@ -457,25 +456,6 @@ require("lazy").setup({
 					},
 				},
 				dockerls = {},
-				--tsserver = {},
-				--pylsp = {
-				--  settings = {
-				--   pylsp = {
-				--      plugins = {
-				--        flake8 = { enabled = false },
-				--        pycodestyle = { enabled = false },
-				--        autopep8 = { enabled = false },
-				--        yapf = { enabled = false },
-				--      },
-				--    },
-				--  },
-				--},
-				--    https://github.com/pmizio/typescript-tools.nvim
-				--
-				-- But for many setups, the LSP (`tsserver`) will work just fine
-				-- tsserver = {},
-				--
-
 				lua_ls = {
 					-- cmd = {...},
 					-- filetypes { ...},
