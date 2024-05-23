@@ -1,5 +1,5 @@
 ## Installed brew formulae:
-```shell
+```properties
 brew install fzf
 brew install git
 brew install lsd
@@ -12,7 +12,7 @@ brew install zellij
 ```
 
 ## Installed brew casks:
-```bash
+```properties
 brew install --cask 1password
 brew install --cask brave-browser
 brew install --cask orbstack

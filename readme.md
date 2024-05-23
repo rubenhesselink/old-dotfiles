@@ -6,13 +6,13 @@ This is a collection of my dotfiles. I use these to configure my system to my li
 
 To install these dotfiles, clone this repository to your home directory
 
-```bash
+```properties
 git clone git@github.com:rubenhesselink/dotfiles.git ~/.dotfiles
 ```
 
 If git is not present yet on your system, you can install it with the following command:
 
-```bash
+```properties
 brew install git
 ```
 
