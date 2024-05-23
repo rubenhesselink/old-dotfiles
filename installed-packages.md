@@ -1,5 +1,5 @@
 ## Installed brew formulae:
-```bash
+```shell
 brew install fzf
 brew install git
 brew install lsd
