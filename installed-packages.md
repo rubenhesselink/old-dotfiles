@@ -9,6 +9,8 @@ brew install neovim
 brew install pyenv
 brew install starship
 brew install zellij
+brew install fastfetch
+brew install btop
 ```
 
 ## Installed brew casks:
