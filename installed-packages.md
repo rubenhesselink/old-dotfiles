@@ -11,6 +11,7 @@ brew install starship
 brew install zellij
 brew install fastfetch
 brew install btop
+brew install ripgrep
 ```
 
 ## Installed brew casks:
