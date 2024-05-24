@@ -12,6 +12,7 @@ brew install zellij
 brew install fastfetch
 brew install btop
 brew install ripgrep
+brew install bat
 ```
 
 ## Installed brew casks:
