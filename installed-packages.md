@@ -13,6 +13,7 @@ brew install fastfetch
 brew install btop
 brew install ripgrep
 brew install bat
+brew install git-delta
 ```
 
 ## Installed brew casks:
