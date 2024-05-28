@@ -14,6 +14,7 @@ brew install btop
 brew install ripgrep
 brew install bat
 brew install git-delta
+brew install tokei
 ```
 
 ## Installed brew casks:
