@@ -15,7 +15,7 @@ brew install ripgrep
 brew install bat
 brew install git-delta
 brew install tokei
-brew install say4n/homebrew-tap/jf
+brew install pipx
 ```
 
 ## Installed brew casks:
