@@ -72,6 +72,14 @@ eval "$(pyenv init -)"
 # Zoxide
 eval "$(zoxide init zsh)"
 
+# Pipx
+ export PATH="$PATH:/Users/rubenhesselink/.local/bin"
+ # eval "$(register-python-argcomplete pipx)"
+
+# Fourdigits CLI
+ # eval "$(_4D_COMPLETE=zsh_source 4d)"
+ # eval "$(_FOURDIGITS_COMPLETE=zsh_source fourdigits)"
+
 # Fzf
 eval "$(fzf --zsh)"
 
