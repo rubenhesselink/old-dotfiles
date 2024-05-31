@@ -55,6 +55,7 @@ alias zel="zellij"
 alias zelc="zel attach --create"
 alias zela="zel attach"
 alias zells="zel list-sessions"
+alias zelld="zel delete-session"
 alias cat="bat"
 
 # Completion styling
