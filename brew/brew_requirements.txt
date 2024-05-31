@@ -1,0 +1,16 @@
+bat
+btop
+fastfetch
+fzf
+git
+git-delta
+lsd
+neovim
+pipx
+pyenv
+ripgrep
+starship
+stow
+tokei
+zellij
+zoxide

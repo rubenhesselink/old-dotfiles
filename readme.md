@@ -16,4 +16,9 @@ If git is not present yet on your system, you can install it with the following 
 brew install git
 ```
 
-After cloning the repository, check the [installed-packages.md](./installed-packages.md) for all installed packages and the commands to install them.
+After cloning the repository, check the [installed-packages.md](./installed-packages.md) for all installed packages, to install all these packages run the following command:
+
+```properties
+xargs brew install < ~/.dotfiles/brew/brew_requirements.txt
+```
+
