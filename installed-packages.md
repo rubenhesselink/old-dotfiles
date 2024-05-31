@@ -28,5 +28,6 @@ brew install --cask alacritty
 brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask shottr
 brew install --cask spotify
+brew install --cask obsidian
 ```
 
