@@ -16,7 +16,30 @@ brew install bat
 brew install git-delta
 brew install tokei
 brew install pipx
+brew install tldr
+brew install ddgr
+brew install navi
 ```
+
+- fzf: Fuzzy finder
+- git: Version control system
+- lsd: List directory (better than ls)
+- stow: Symlink manager
+- zoxide: Directory jump
+- neovim: Text editor
+- pyenv: Python version manager
+- starship: Shell prompt
+- zellij: Terminal multiplexer
+- fastfetch: System information
+- btop: Resource monitor
+- ripgrep: Search tool
+- bat: Cat clone with syntax highlighting
+- git-delta: Git diff viewer
+- tokei: Code statistics
+- pipx: Python package installer
+- tldr: Simpler man pages
+- ddgr: DuckDuckGo from the terminal
+- navi: Cheatsheet viewer
 
 ## Installed brew casks:
 ```properties
@@ -30,4 +53,14 @@ brew install --cask shottr
 brew install --cask spotify
 brew install --cask obsidian
 ```
+
+- 1password: Password manager
+- brave-browser: Web browser
+- orbstack: Docker desktop replacement
+- slack: Communication tool
+- alacritty: Terminal emulator
+- font-jetbrains-mono-nerd-font: Font
+- shottr: Screenshot tool
+- spotify: Music streaming service
+- obsidian: Note-taking app
 
