@@ -19,6 +19,7 @@ brew install pipx
 brew install tldr
 brew install ddgr
 brew install navi
+brew install fd
 ```
 
 - fzf: Fuzzy finder
@@ -40,6 +41,7 @@ brew install navi
 - tldr: Simpler man pages
 - ddgr: DuckDuckGo from the terminal
 - navi: Cheatsheet viewer
+- fd: Find replacement
 
 ## Installed brew casks:
 ```properties
