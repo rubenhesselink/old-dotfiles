@@ -485,6 +485,19 @@ require("lazy").setup({
 			local capabilities = vim.lsp.protocol.make_client_capabilities()
 			capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
+      -- Adding custom LSPs
+			local configs = require("lspconfig.configs")
+			if not configs.djlsp then
+				configs.djlsp = {
+					default_config = {
+						cmd = { "/Users/rubenhesselink/.local/bin/djlsp", "--enable-log" },
+						filetypes = { "html", "htmldjango" },
+						root_dir = require("lspconfig/util").root_pattern("manage.py", ".git"),
+						settings = {},
+					},
+				}
+			end
+
 			-- Enable the following language servers
 			--  Feel free to add/remove any LSPs that you want here. They will automatically be installed.
 			--
@@ -576,6 +589,7 @@ require("lazy").setup({
 					end,
 				},
 			})
+			require("lspconfig").djlsp.setup({})
 		end,
 	},
 
