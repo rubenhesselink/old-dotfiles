@@ -2,6 +2,7 @@ bat
 btop
 ddgr
 fastfetch
+fd
 git
 git-delta
 lsd

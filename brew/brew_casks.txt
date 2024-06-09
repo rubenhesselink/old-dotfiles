@@ -1,0 +1,13 @@
+1password
+alacritty
+brave-browser
+font-jetbrains-mono-nerd-font
+obs
+obsidian
+orbstack
+pycharm
+shottr
+slack
+spotify
+visual-studio-code
+zoom
