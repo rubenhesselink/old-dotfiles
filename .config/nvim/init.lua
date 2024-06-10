@@ -318,7 +318,7 @@ require("lazy").setup({
 			vim.keymap.set("n", "<C-h>", function()
 				harpoon:list():select(1)
 			end, { desc = "[HARPOON] Select bookmark 1" })
-			vim.keymap.set("n", "<C-t>", function()
+			vim.keymap.set("n", "<C-j>", function()
 				harpoon:list():select(2)
 			end, { desc = "[HARPOON] Select bookmark 2" })
 			vim.keymap.set("n", "<C-n>", function()
@@ -485,7 +485,7 @@ require("lazy").setup({
 			local capabilities = vim.lsp.protocol.make_client_capabilities()
 			capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
-      -- Adding custom LSPs
+			-- Adding custom LSPs
 			local configs = require("lspconfig.configs")
 			if not configs.djlsp then
 				configs.djlsp = {
