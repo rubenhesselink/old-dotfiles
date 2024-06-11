@@ -359,6 +359,18 @@ require("lazy").setup({
 			})
 		end,
 	},
+	-- Precognition assists with discovering motions (Vertical and Horizontal) to navigate the current buffer
+	{
+		"tris203/precognition.nvim",
+		config = function()
+			local precognition = require("precognition")
+			precognition:setup({})
+			-- Add keymap for toggling precognition
+			vim.keymap.set("n", "<leader>z", function()
+				precognition:toggle()
+			end, { desc = "Toggle [Z]en Mode" })
+		end,
+	},
 	{ -- LSP Configuration & Plugins
 		"neovim/nvim-lspconfig",
 		dependencies = {
