@@ -117,6 +117,7 @@ eval "$(zoxide init zsh)"
 
 # Fzf
 eval "$(fzf --zsh)"
+source <(fzf --zsh)
 
 # Starship (MUST BE LAST)
 eval "$(starship init zsh)"
