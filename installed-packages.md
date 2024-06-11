@@ -20,6 +20,7 @@ brew install tldr
 brew install ddgr
 brew install navi
 brew install fd
+brew install jordanbaird-ice
 ```
 
 - fzf: Fuzzy finder
@@ -42,6 +43,7 @@ brew install fd
 - ddgr: DuckDuckGo from the terminal
 - navi: Cheatsheet viewer
 - fd: Find replacement
+- jordanbaird-ice: Menu bar management tool
 
 ## Installed brew casks:
 ```properties
