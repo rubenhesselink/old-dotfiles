@@ -366,9 +366,11 @@ require("lazy").setup({
 			local precognition = require("precognition")
 			precognition:setup({})
 			-- Add keymap for toggling precognition
-			vim.keymap.set("n", "<leader>z", function()
+			vim.keymap.set("n", "<leader>p", function()
 				precognition:toggle()
-			end, { desc = "Toggle [Z]en Mode" })
+			end, { desc = "Toggle [P]recognition" })
+			-- Disable precognition by default
+			precognition:toggle()
 		end,
 	},
 	{ -- LSP Configuration & Plugins
