@@ -91,6 +91,7 @@ alias zela="zel attach"
 alias zeld="zel delete-session"
 alias zells="zel list-sessions"
 alias cat="bat"
+alias activate_env="source env/bin/activate"
 
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
