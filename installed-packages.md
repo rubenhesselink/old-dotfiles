@@ -20,7 +20,6 @@ brew install tldr
 brew install ddgr
 brew install navi
 brew install fd
-brew install jordanbaird-ice
 ```
 
 - fzf: Fuzzy finder

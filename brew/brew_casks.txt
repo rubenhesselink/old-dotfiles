@@ -2,7 +2,6 @@
 alacritty
 brave-browser
 font-jetbrains-mono-nerd-font
-jordanbaird-ice
 obs
 obsidian
 orbstack
