@@ -507,7 +507,7 @@ require("lazy").setup({
 					default_config = {
 						cmd = { "/Users/rubenhesselink/.local/bin/djlsp", "--enable-log" },
 						filetypes = { "html", "htmldjango" },
-						root_dir = require("lspconfig/util").root_pattern("manage.py", ".git"),
+						root_dir = require("lspconfig/util").root_pattern(".git"),
 						settings = {},
 					},
 				}
