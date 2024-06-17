@@ -500,22 +500,6 @@ require("lazy").setup({
 			local capabilities = vim.lsp.protocol.make_client_capabilities()
 			capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
-			-- Adding custom LSPs
-			local configs = require("lspconfig.configs")
-			if not configs.djlsp then
-				configs.djlsp = {
-					default_config = {
-						cmd = {
-							"/Users/rubenhesselink/Code/Projects/django-template-lsp/env/bin/djlsp",
-							"--enable-log",
-						},
-						filetypes = { "html", "htmldjango", "django-html" },
-						root_dir = require("lspconfig/util").root_pattern(".git"),
-						settings = {},
-					},
-				}
-			end
-
 			local servers = {
 				pyright = {
 					settings = {
@@ -527,10 +511,10 @@ require("lazy").setup({
 						},
 					},
 				},
-				htmx = {
-					cmd = { "htmx-lsp" },
-					filetypes = { "html", "htmldjango", "templ" },
-				},
+				-- htmx = {
+				-- 	cmd = { "htmx-lsp" },
+				-- 	filetypes = { "html", "htmldjango", "templ" },
+				-- },
 				html = {
 					filetypes = { "html", "htmldjango", "templ" },
 					root_dir = require("lspconfig/util").find_git_ancestor,
@@ -592,7 +576,12 @@ require("lazy").setup({
 					end,
 				},
 			})
-			require("lspconfig").djlsp.setup({})
+			require("lspconfig").djlsp.setup({
+				cmd = {
+					"/Users/rubenhesselink/Code/Projects/django-template-lsp/env/bin/djlsp",
+					"--enable-log",
+				},
+			})
 		end,
 	},
 
