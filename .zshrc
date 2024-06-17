@@ -78,6 +78,10 @@ setopt hist_find_no_dups
 
 # Aliasses
 alias gst="git status"
+alias gitca="git commit --amend"
+alias gitcm="git commit -m"
+alias ga="git add"
+alias gpf="git push --force-with-lease"
 alias ls="lsd --color auto"
 alias l="ls -l"
 alias la="ls -a"
