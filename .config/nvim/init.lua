@@ -579,7 +579,7 @@ require("lazy").setup({
 			require("lspconfig").djlsp.setup({
 				cmd = {
 					"/Users/rubenhesselink/Code/Projects/django-template-lsp/env/bin/djlsp",
-					"--enable-log",
+					--"--enable-log",
 				},
 			})
 		end,
