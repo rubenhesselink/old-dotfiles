@@ -515,6 +515,7 @@ require("lazy").setup({
 				-- 	cmd = { "htmx-lsp" },
 				-- 	filetypes = { "html", "htmldjango", "templ" },
 				-- },
+				djlint = {},
 				html = {
 					filetypes = { "html", "htmldjango", "templ" },
 					root_dir = require("lspconfig/util").find_git_ancestor,
@@ -579,7 +580,7 @@ require("lazy").setup({
 			require("lspconfig").djlsp.setup({
 				cmd = {
 					"/Users/rubenhesselink/Code/Projects/django-template-lsp/env/bin/djlsp",
-					--"--enable-log",
+					"--enable-log",
 				},
 			})
 		end,
@@ -595,6 +596,7 @@ require("lazy").setup({
 			},
 			formatters_by_ft = {
 				lua = { "stylua" },
+				htmldjango = { "djlint" },
 				-- Conform can also run multiple formatters sequentially
 				-- python = { "isort", "black" },
 				--
