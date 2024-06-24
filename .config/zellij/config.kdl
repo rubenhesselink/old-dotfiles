@@ -276,12 +276,25 @@ themes {
     black "#181825" // Mantle
     white "#cdd6f4"
   }
+  citruszest {
+    bg "#121212"
+    fg "#BFBFBF"
+    red "#FF5454"
+    green "#00CC7A"
+    blue "#00BFFF"
+    yellow "#FFD700"
+    magenta "#FF1A75"
+    orange "#FF7431"
+    cyan "#00FFFF"
+    black "#232323"
+    white "#BFBFBF"
+  }
 }
 
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-theme "catppuccin-mocha"
+theme "citruszest"
 
 // The name of the default layout to load on startup
 // Default: "default"
