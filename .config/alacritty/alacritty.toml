@@ -1,8 +1,8 @@
 live_config_reload = true
 
 import = [
-	# "~/.config/alacritty/themes/mocha.toml"
-	"~/.config/alacritty/themes/citruszest.toml",
+	"~/.config/alacritty/themes/mocha.toml"
+	# "~/.config/alacritty/themes/citruszest.toml",
 	#"~/.config/alacritty/themes/catppuccin-macchiato.toml"
 	#"~/.config/alacritty/themes/catppuccin-latte.toml"
 	#"~/.config/alacritty/themes/catppuccin-frappe.toml"
