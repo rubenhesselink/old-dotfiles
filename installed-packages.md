@@ -55,6 +55,7 @@ brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask shottr
 brew install --cask spotify
 brew install --cask obsidian
+brew install --cask nikitabobko/tap/aerospace
 ```
 
 - 1password: Password manager
@@ -66,4 +67,5 @@ brew install --cask obsidian
 - shottr: Screenshot tool
 - spotify: Music streaming service
 - obsidian: Note-taking app
+- aerospace: An i3 like tiling window manager.
 
