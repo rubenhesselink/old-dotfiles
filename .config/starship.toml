@@ -31,7 +31,7 @@ truncation_symbol = '...'
 symbol = ' '
 version_format = '${major}.${minor}.${patch}'
 style = 'yellow bold'
-format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+format = '[${symbol}(${version} )(\($virtualenv\) )]($style)'
 
 [directory]
 truncation_length = 1

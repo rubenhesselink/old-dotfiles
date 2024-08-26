@@ -56,9 +56,6 @@ export FZF_DEFAULT_COMMAND='fd --type d --strip-cwd-prefix --hidden --follow \
     --exclude .pip-audit-cache \
     --exclude Pictures \'
 
-# To apply the command to CTRL-T as well
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-
 # TODO: Change CTRL_T_COMMAND back to default
 # TODO: Add a new custom command for searching my ~/Code/Projects/ directory
 # TODO: Add a new custom command for searching my ~/dotfiles/ directory
@@ -96,6 +93,8 @@ alias zeld="zel delete-session"
 alias zells="zel list-sessions"
 alias cat="bat"
 alias activate_env="source env/bin/activate"
+alias cfdn="sshuttle @/Users/rubenhesselink/.ssh/sshuttle.conf"
+alias projects="z projects"
 
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
@@ -108,6 +107,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls $realpath'
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # Zoxide
 eval "$(zoxide init zsh)"
@@ -126,4 +126,3 @@ source <(fzf --zsh)
 
 # Starship (MUST BE LAST)
 eval "$(starship init zsh)"
-
