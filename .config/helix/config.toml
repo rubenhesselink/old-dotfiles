@@ -11,6 +11,3 @@ completion-trigger-len = 1
 
 [editor.indent-guides]
 render = true
-
-[keys.normal."space"]
-n = ":sh ~/.config/helix/open-yazi-picker.sh"

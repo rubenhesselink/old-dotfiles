@@ -1,4 +1,5 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
+export EDITOR="hx"
 
 # Define where zinit and it's plugins will live.
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -85,12 +86,6 @@ alias la="ls -a"
 alias lla="ls -la"
 alias lt="ls --tree"
 alias glo="git log --oneline"
-alias nv="nvim"
-alias zel="zellij"
-alias zelc="zel attach --create"
-alias zela="zel attach"
-alias zeld="zel delete-session"
-alias zells="zel list-sessions"
 alias cat="bat"
 alias activate_env="source env/bin/activate"
 alias cfdn="sshuttle @/Users/rubenhesselink/.ssh/sshuttle.conf"
@@ -126,3 +121,15 @@ source <(fzf --zsh)
 
 # Starship (MUST BE LAST)
 eval "$(starship init zsh)"
+
+if [[ -z "$ZELLIJ" ]]; then
+    if [[ "$ZELLIJ_AUTO_ATTACH" == "true" ]]; then
+        zellij attach -c
+    else
+        zellij -l welcome --config-dir ~/.config/zellij options --layout-dir ~/.config/zellij/layouts
+    fi
+
+    if [[ "$ZELLIJ_AUTO_EXIT" == "true" ]]; then
+        exit
+    fi
+fi
