@@ -16,7 +16,13 @@ else
     zellij action new-pane
     sleep 0.4
 
+    if [ -d "$1" ]; then
+        WORKING_DIR="$1"
+    else
+        WORKING_DIR=$(dirname "$1")
+    fi
+
     # Get the working directory
-    zellij action write-chars "hx $1"
+    zellij action write-chars "hx $1 -w $WORKING_DIR"
     zellij action write 13
 fi

@@ -2,4 +2,5 @@
 .gitignore
 readme.md
 installed-packages.md
-.DS_Store
+**/.DS_Store
+scripts/

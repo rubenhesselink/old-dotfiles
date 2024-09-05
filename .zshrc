@@ -90,6 +90,7 @@ alias cat="bat"
 alias activate_env="source env/bin/activate"
 alias cfdn="sshuttle @/Users/rubenhesselink/.ssh/sshuttle.conf"
 alias projects="z projects"
+alias lazygit="lazygit --use-config-file='$HOME/.config/lazygit/themes/mocha.yml'"
 
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'

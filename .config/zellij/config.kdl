@@ -1,5 +1,10 @@
 // If you'd like to override the default keybindings completely, be sure to change "keybinds" to "keybinds clear-defaults=true"
 keybinds clear-defaults=true{
+    unbind "Alt 1"
+    unbind "Alt 2"
+    unbind "Alt 3"
+    unbind "Alt 4"
+    unbind "Alt 5"
     normal {
         // uncomment this and adjust key if using copy_on_select=false
         // bind "Alt c" { Copy; }
